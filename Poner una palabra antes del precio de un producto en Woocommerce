@@ -1,0 +1,7 @@
+// Poner una palabra antes del precio de un producto en Woocommerce
+
+add_filter( 'woocommerce_get_price_html', 'ayudawp_prefijo_precios' );
+function ayudawp_prefijo_precios($price){
+$text_to_add_before_price = ' PRECIOS EXCLUSIVOS '; 
+return $text_to_add_before_price . $price ;
+}
