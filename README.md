@@ -1,2 +1,2 @@
-# inficon
+# WordPress
 Código para WordPress
